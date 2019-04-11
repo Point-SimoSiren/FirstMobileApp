@@ -11,7 +11,23 @@ namespace FirstMobileApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ContentPage
+            {
+                Content = new StackLayout
+                {
+                    VerticalOptions = LayoutOptions.Center,
+                    Children =
+                    {
+                        new Label
+                        {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Text = "Heippatirallaa!",
+                            TextColor = Color.YellowGreen
+                            
+                        }
+                    }
+                }
+            };
         }
 
         protected override void OnStart()
