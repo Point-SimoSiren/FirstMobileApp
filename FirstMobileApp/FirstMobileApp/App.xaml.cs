@@ -21,10 +21,26 @@ namespace FirstMobileApp
                         new Label
                         {
                             HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Heippatirallaa!",
+                            Text = "Arvaa luku -peli",
                             TextColor = Color.YellowGreen
-                            
+
+                        },
+                        new Label
+                        {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Text = "Sovellusversio 1.0",
+                            TextColor = Color.Silver
+                        },
+                        new Entry
+                        {
+                            Keyboard = Keyboard.Numeric,
+                            Text = ""
+                        },
+                        new Button
+                        {
+                            Text = "Arvaa"
                         }
+
                     }
                 }
             };
